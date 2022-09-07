@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    background-color: #333A44;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    &__link{
+        margin-left: 150px;
+    }
+    &__nav{
+        display: flex;
+        list-style: none;
+
+        &__item{
+            padding-left: 35px;
+        }
+
+        &__link{
+            color: #939CAA;
+            text-decoration: none;
+        }
+        &__link:hover{
+            text-decoration: underline black;
+        }
+}
+.icons{
+    padding-left: 500px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+}

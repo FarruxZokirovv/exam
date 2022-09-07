@@ -1,0 +1,21 @@
+.end{
+    display: flex;
+    align-items: center;
+    &__title{
+        width: 350px;
+height: 96px;
+font-weight: 700;
+font-size: 48px;
+color: #FFFFFF;
+padding-left: 100px;
+    }
+    &__title:hover{
+        text-decoration: underline;
+    }
+    &__box{
+        padding-left: 500px;
+        display: flex;
+        gap: 12px;
+       
+    }
+}

@@ -1,0 +1,66 @@
+.work{
+    margin-top: 150px;
+    &__box{
+        display: flex;
+        margin-left: 20px;
+        &__img{
+            padding-left: 80px;
+        }
+        &__img2{
+            padding-left: 300px;
+        }
+        &__img3{
+            padding-left: 300px;
+        }
+    }
+
+    &__texts{
+        display: flex;
+        margin-top: 30px;
+        &__title{
+            padding-left: 105px;
+            color: #495567;
+        }
+        &__title:hover{
+            text-decoration: underline black;
+        }
+        &__title2{
+            color: #495567;
+            padding-left: 220px;
+        }
+        &__title2:hover{
+            text-decoration: underline black;
+        }
+        &__title3{
+            color: #495567;
+            padding-left: 200px;
+        }
+        &__title3:hover{
+            text-decoration: underline black;
+        }
+    }
+    
+        &__text{
+            width: 350px;
+            padding-left: 100px;
+        }
+        &__text:hover{
+            text-decoration: underline black;
+        }
+        &__text2{
+            width: 360px;
+            margin-top: -100px;
+            padding-left: 500px;
+        }
+        &__text2:hover{
+            text-decoration: underline black;
+        }
+        &__text3{
+            width: 350px;
+            padding-left: 895px;
+            margin-top: -100px;       
+        }
+        &__text3:hover{
+            text-decoration: underline black;
+        }
+}
